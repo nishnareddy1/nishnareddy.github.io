@@ -54,3 +54,23 @@ li a:active{
     padding: 15px;
     background-color: white;
 }
+.project-item {
+    width: 500px;
+    height: 450px;
+    margin: 10px;
+    background-color: white;
+    padding:15px;
+}
+.project-item img{
+    height: 50%;
+    width:100%;
+}
+.aboutme img{
+    height: 50%;
+    width:100%;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
