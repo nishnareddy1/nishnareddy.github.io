@@ -74,3 +74,36 @@ h2{
     color: white;
     text-align: center;
 }
+footer{
+    color:white;
+    text-align: center;
+}
+form{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 30%;
+    margin: 0 auto;
+    text-align: left;
+  }
+form input[type=submit] {
+    background-color: rgb(15, 135, 248);
+    color: white;
+    width: 100%;
+    padding: 10px;
+  }
+  form input[type=submit]:hover{
+    background-color:rgb(24, 104, 209);
+    color: white;
+  }
+  form input[type="text"]{
+    width: 100%;
+    padding:1px;
+  }
+  form input[type="email"]{
+    width: 100%;
+    padding:1px;
+  }
+  form textarea{
+    width: 100%;
+  }
