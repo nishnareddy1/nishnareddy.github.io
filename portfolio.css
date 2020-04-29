@@ -43,3 +43,14 @@ li a:active{
     float:right;
     font-weight: bolder;
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.aboutme{
+    width: 300px;
+    height:550px;
+    padding: 15px;
+    background-color: white;
+}
