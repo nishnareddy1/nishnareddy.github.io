@@ -13,9 +13,13 @@
     <link rel="stylesheet" href="portfolio.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-    <body id='home'>
+    <body>
+      <header class="headcontainer" id="home">
+        <h1 id="title">Nishna Reddy Aleti<br><span id='typed'></span></h1>
+        
+    </header>
         <nav class="navbar fixed-top navbar-expand-sm">
-            <ul class="navbar-nav mr-auto">
+            <ul class="nav mr-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="#home">Home</a>
                 </li>
@@ -64,20 +68,31 @@
             </ul>
             <span class="navbar-text">Nishna Reddy Aleti</span> 
         </nav>
+        
+        <!-- <section id='home'>
+          <h3>I'm a <span id='demo'></span></h3>
+        </section> -->
         <h2 id='about-title'><br><br>About</h2>
-        <section class='container' id='about'>        
-            <div class='aboutme'>
-                <h3>About Me</h3>
-                <img src='images/nishna pic.jpeg' alt='Me'><br><br>
-              <p>
-                Hey there! I'm Nishna and I'm born and brought up in India. 
-                I'm currently a Master's student in Computer Science at Portland 
-                State University. I pursued my bachelor's degree in Computer Science at 
-                Mahindra Ecole Centrale, India. I work as a Graduate Administrative 
-                Assistant for the Office of Information Technology at PSU.
-              </p>
-            </div> 
+        
+        <section class='aboutmecontainer'>        
+          <div class='aboutme'>  
+            <div class="myphoto">
+              <img class="myimage" src='images/nishna pic.jpeg' alt='Me'><br><br>
+            </div>
+          </div>
+        
+          <div class='aboutme'> 
+            <p><br>
+              Hey there! I'm Nishna and I'm born and brought up in India. 
+              I'm currently a Master's student in Computer Science at Portland 
+              State University. I pursued my bachelor's degree in Computer Science at 
+              Mahindra Ecole Centrale, India. I work as a Graduate Administrative 
+              Assistant for the Office of Information Technology at PSU.
+            </p>
+            
+            <button type="button" class="btn"><a href="resume..pdf" target="_blank">View Resume</a></button>
         </section>
+             
         <br><br>
     <h2 id='projects-title'><br><br>Projects</h2>
     <section class='container' id='projects'>
@@ -92,7 +107,7 @@
           <a class='fa fa-github' href="https://github.com/nishnareddy1/cs554_battle_code" 
           target="_blank" rel="noopener"><span class='repo-link'> Github Repo</span></a>
       </div>
-
+      
 
       <div class='project-item'>
         <h3 id='project-item-2'>Stock Prediction</h3>
@@ -201,3 +216,5 @@
     </footer><br>
     </body>
 </html>
+<script type="text/javascript" src="js/typed.js"></script>
+<script type="text/javascript" src="js/text.js"></script>
