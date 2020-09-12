@@ -5,7 +5,7 @@ var typed = new Typed("#typed", {
         "Programmer"
     ],
     fadeOut: true,
-    typeSpeed: 70,
-    backSpeed: 70,
+    typeSpeed: 75,
+    backSpeed: 75,
     loop: true
 })
